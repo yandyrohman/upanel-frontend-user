@@ -1,0 +1,17 @@
+.header-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  user-select: none;
+  cursor: pointer;
+  color: #555;
+}
+
+.header-profile:hover {
+  background: #eee;
+}
+
+.header-profile:active {
+  background: #ccc;
+}

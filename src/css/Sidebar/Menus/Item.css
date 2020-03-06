@@ -1,0 +1,25 @@
+.sidebar-menus-item {
+  padding: 15px 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #009688;
+  transition: 0.3s;
+}
+
+.sidebar-menus-item:hover {
+  background: #eee;
+}
+
+.sidebar-menus-item:active {
+  background: #ccc;
+}
+
+  .sidebar-menus-item span {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+
+  .sidebar-menus-item i {
+    font-size: 20px;
+  }

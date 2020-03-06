@@ -1,0 +1,17 @@
+.header-sidebartoggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  user-select: none;
+  cursor: pointer;
+  color: #555;
+}
+
+.header-sidebartoggle:hover {
+  background: #eee;
+}
+
+.header-sidebartoggle:active {
+  background: #ccc;
+}

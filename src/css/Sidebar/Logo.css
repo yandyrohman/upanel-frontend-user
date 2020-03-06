@@ -1,0 +1,11 @@
+.sidebar-logo {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+  .sidebar-logo-img {
+    width: 80px;
+  }
