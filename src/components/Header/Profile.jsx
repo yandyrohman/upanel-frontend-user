@@ -1,10 +1,12 @@
 import React from 'react'
 import '../../css/Header/Profile.css'
+import ImageProfile from '../../images/me.jpg'
 
 export default function Profile() {
   return (
     <div className="header-profile">
-      <i className="icon">account_circle</i>
+      <img className="header-profile-img" src={ImageProfile} alt="Me"/>
+      <i className="icon">keyboard_arrow_down</i>
     </div>
   )
 }

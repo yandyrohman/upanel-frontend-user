@@ -1,14 +1,14 @@
 .sidebar-menus-item {
-  padding: 15px 20px;
+  padding: 15px 30px;
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: #009688;
+  color: #333;
   transition: 0.3s;
 }
 
 .sidebar-menus-item:hover {
-  background: #eee;
+  background: #ddd;
 }
 
 .sidebar-menus-item:active {
@@ -16,10 +16,16 @@
 }
 
   .sidebar-menus-item span {
-    font-size: 15px;
+    font-size: 14px;
     margin-left: 10px;
+    font-weight: 600;
   }
 
   .sidebar-menus-item i {
-    font-size: 20px;
+    font-size: 17px;
   }
+
+.sidebar-menus-active {
+  border-left: 3px solid #f44336;
+  color: #f44336;
+}

@@ -1,0 +1,100 @@
+.hosting {
+  width: calc(100% - 80px);
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+
+  .hosting-item {
+    height: 100px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    user-select: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .hosting-item:hover {
+    background: #f8f8f8;
+  }
+
+    .hosting-item-img {
+      width: 40px;
+      margin-bottom: 10px;
+    }
+
+    .hosting-item-wrap {
+      display: flex;
+      align-items: center;
+    }
+
+      .hosting-item-status {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+      }
+
+        .hosting-item-status span:first-child {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 20px;
+          height: 20px;
+          border-radius: 20px;
+          background: #4caf50; 
+          z-index: 1;
+        }
+
+        .hosting-item-status span:nth-child(2) {
+          position: absolute;
+          top: 2px;
+          left: 2px;
+          width: 16px;
+          height: 16px;
+          border-radius: 20px;
+          background: #eee; 
+          z-index: 2;
+        }
+
+        .hosting-item-status span:nth-child(3) {
+          position: absolute;
+          top: 0;
+          left: 7px;
+          width: 6px;
+          height: 20px;
+          background: #eee; 
+          z-index: 3;
+          animation: berputar 1s linear infinite;
+        }
+
+        .hosting-item-status span:nth-child(4) {
+          position: absolute;
+          top: 5px;
+          left: 5px;
+          width: 10px;
+          height: 10px;
+          border-radius: 20px;
+          background: #4caf50; 
+          z-index: 4;
+        }
+
+      .hosting-item-name {
+        color: #333;
+        font-size: 15px;
+      }
+
+@keyframes berputar {
+  from {
+    transform: rotate(0deg);
+  } to {
+    transform: rotate(360deg);
+  }
+}

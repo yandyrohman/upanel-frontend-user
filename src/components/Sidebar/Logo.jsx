@@ -1,5 +1,5 @@
 import React from 'react'
-import LogoImage from '../../images/logo.png'
+import LogoImage from '../../images/logo2.png'
 import '../../css/Sidebar/Logo.css'
 
 export default function Logo() {

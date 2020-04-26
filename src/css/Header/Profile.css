@@ -9,9 +9,19 @@
 }
 
 .header-profile:hover {
-  background: #eee;
+  background: #ddd;
 }
 
 .header-profile:active {
   background: #ccc;
 }
+
+  .header-profile-img {
+    width: 35px;
+    border-radius: 35px;
+    margin-right: 5px;
+  }
+
+  .header-profile i {
+    font-size: 17px;
+  }

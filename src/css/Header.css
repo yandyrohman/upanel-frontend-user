@@ -6,7 +6,7 @@
   left: 300px;
   top: 0;
   display: grid;
-  /* full : grid-template-columns: 60px 120px 1fr 60px 60px; */
-  grid-template-columns: 60px 120px 1fr 60px 60px; 
+  grid-template-columns: 1fr 60px 80px; 
   border-bottom: 1px solid #eee;
+  backdrop-filter: blur(10px) grayscale(10%);
 }

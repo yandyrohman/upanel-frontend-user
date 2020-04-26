@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 @font-face {
@@ -23,4 +24,8 @@
   direction: ltr;
   font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: #eee;
 }

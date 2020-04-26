@@ -1,6 +1,20 @@
 .header-saldo {
   display: flex;
   justify-content: center;
-  align-items: center;
-  font-weight: bold;
+  align-items: flex-start;
+  flex-direction: column;
+  border-left: 3px solid #ccc;
+  padding-left: 20px;
 }
+
+  .header-saldo-title {
+    color: #666;
+    font-size: 12px;
+  }
+
+  .header-saldo-value {
+    color: #333;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+  }

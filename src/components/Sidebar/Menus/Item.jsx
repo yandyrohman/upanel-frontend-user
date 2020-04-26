@@ -4,7 +4,7 @@ import '../../../css/Sidebar/Menus/Item.css'
 export default function Item(props) {
   return (
     <a 
-      className="sidebar-menus-item"
+      className={props.active ? 'sidebar-menus-item sidebar-menus-active' : 'sidebar-menus-item'}
       href={props.to}
     >
       <i className="icon">{props.icon}</i>
